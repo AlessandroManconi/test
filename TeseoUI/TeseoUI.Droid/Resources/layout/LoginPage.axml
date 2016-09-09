@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Car"
+    android:orientation="vertical">
+  <TextView
+      android:text="Teseo"
+      android:gravity="center"
+      android:textSize="50.0dp"
+      android:textColor="#FFFFFF"
+      android:layout_marginTop="40.0dp"
+      android:layout_marginBottom="60.0dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/teseoText" />
+  <EditText
+      android:inputType="textEmailAddress"
+      android:hint="Email"
+      android:textColorHint="#ffffff"
+      android:textSize="17.0dp"
+      android:textColor="#ffffff"
+      android:layout_width="fill_parent"
+      android:layout_height="45.0dp"
+      android:layout_centerHorizontal="true"
+      android:layout_marginLeft="27.0dp"
+      android:layout_marginRight="27.0dp"
+      android:layout_marginBottom="20.0dp"
+      android:id="@+id/userEmail"
+      android:backgroundTint="#ffffffff" />
+  <EditText
+      android:password="true"
+      android:hint="Password"
+      android:textColorHint="#ffffff"
+      android:textSize="17.0dp"
+      android:textColor="#ffffff"
+      android:layout_width="fill_parent"
+      android:layout_height="45.0dp"
+      android:layout_centerHorizontal="true"
+      android:layout_marginLeft="27.0dp"
+      android:layout_marginRight="27.0dp"
+      android:layout_marginBottom="32.0dp"
+      android:id="@+id/userPassword"
+      android:backgroundTint="#ffffffff" />
+  <Button
+      android:id="@+id/loginButton"
+      android:layout_width="fill_parent"
+      android:layout_height="40.0dp"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginLeft="27.0dp"
+      android:layout_marginRight="27.0dp"
+      android:text="Accedi"
+      android:textSize="17.0dp"
+      android:textColor="#ffffff"
+      android:background="?android:attr/selectableItemBackground" />
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_marginTop="190.0dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_weight="1">
+    <Button
+        android:id="@+id/accountButton"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:text="Crea un Account"
+        android:textSize="10.0dp"
+        android:textColor="#ffffff"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground" />
+    <Button
+        android:id="@+id/passwButton"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:text="Password dimenticata?"
+        android:textSize="10.0dp"
+        android:textColor="#ffffff"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground" />
+  </LinearLayout>
+</LinearLayout>
